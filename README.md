@@ -1,3 +1,3 @@
 ## Personal Portfolio and Website
 
-Personal website and portfolio built with Astrojs
+Personal website and portfolio.
