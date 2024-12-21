@@ -1,6 +1,6 @@
 export const siteConfig = {
   author: 'Philbert Otieno',
-  title: 'My personal website and portfolio',
+  title: 'Philbert',
   subtitle: 'Showcasing My Work, Skills, and Projects.',
   description: 'Welcome to my personal space on the web. This portfolio highlights my latest projects, skills, and achievements. Explore my work, read my blog posts, and get in touch to collaborate or learn more about my expertise',
   image: {
@@ -70,14 +70,6 @@ export const siteConfig = {
       {
         text: 'Blog',
         href: '/blog',
-      },
-      {
-        text: 'Notes',
-        href: '/blog/notes',
-      },
-      {
-        text: 'Talks',
-        href: '/blog/talks',
       },
     ],
   },
