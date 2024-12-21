@@ -56,6 +56,10 @@ export const siteConfig = {
         href: '/blog/talks',
       },
       {
+        text: 'CV',
+        href: '/blog/notes',
+      },
+      {
         text: 'Projects',
         href: '/projects',
       },
@@ -90,6 +94,10 @@ export const siteConfig = {
       {
         text: 'Wanna talk?',
         href: '/contact',
+      },
+      {
+        text: 'CV',
+        href: '/blog/notes',
       },
       {
         text: 'Urban Planning & Research',
