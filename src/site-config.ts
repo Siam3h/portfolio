@@ -44,23 +44,27 @@ export const siteConfig = {
     },
     navLinks: [
       {
+        text: 'Home',
+        href: '/',
+      },
+      {
         text: 'Blog',
         href: '/blog',
       },
       {
-        text: 'Notes',
-        href: '/blog/notes',
-      },
-      {
-        text: 'Talks',
-        href: '/blog/talks',
+        text: 'Wanna talk?',
+        href: '/contact',
       },
       {
         text: 'CV',
         href: '/blog/notes',
       },
       {
-        text: 'Projects',
+        text: 'Urban Planning & Research',
+        href: '/projects',
+      },
+      {
+        text: 'Data & Tech',
         href: '/projects',
       },
     ],
