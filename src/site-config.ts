@@ -3,8 +3,12 @@ export const siteConfig = {
   title: 'Philbert',
   subtitle: 'Showcasing My Work, Skills, and Projects.',
   description: 'Welcome to my personal space on the web. This portfolio highlights my latest projects, skills, and achievements. Explore my work, read my blog posts, and get in touch to collaborate or learn more about my expertise',
+  image: {
+    src: '/hero.jpg',
+    alt: 'Website Main Image',
+  },
+  url: 'https://https://portfolio-two-ashen-63.vercel.app',
   email: 'siamaphilbert@outlook.com',
-  url: "https://https://portfolio-two-ashen-63.vercel.app",
   socialLinks: [
     {
       text: 'GitHub',
@@ -28,11 +32,6 @@ export const siteConfig = {
       href: 'https://instagram.com/oti3n',
       icon: 'i-simple-icons-instagram',
     },
-    {
-      text: 'Youtube',
-      href: 'https://youtube.com/siamaphilbert',
-      icon: 'i-simple-icons-youtube',
-    },
   ],
   header: {
     logo: {
@@ -54,15 +53,19 @@ export const siteConfig = {
       },
       {
         text: 'CV',
-        href: '/blog/notes',
+        href: '/cv',
       },
       {
-        text: 'Urban Planning & Research',
-        href: '/projects',
+        text: 'Urban Planning',
+        href: '/planning',
+      },
+      {
+        text: 'Research',
+        href: '/research',
       },
       {
         text: 'Data & Tech',
-        href: '/projects',
+        href: '/tech',
       },
     ],
   },
@@ -90,15 +93,19 @@ export const siteConfig = {
       },
       {
         text: 'CV',
-        href: '/blog/notes',
+        href: '/cv',
       },
       {
-        text: 'Urban Planning & Research',
-        href: '/projects',
+        text: 'Urban Planning',
+        href: '/planning',
+      },
+      {
+        text: 'Research',
+        href: '/research',
       },
       {
         text: 'Data & Tech',
-        href: '/projects',
+        href: '/tech',
       },
     ],
   },

@@ -1,0 +1,19 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import ContactForm from '@/components/ContactForm.astro'
+import siteConfig from '@/site-config'
+---
+
+<BaseLayout title="Contact">
+  <ContactForm />
+  <p>
+    Or you can also email me at
+    <a
+      prose-link
+      aria-label={siteConfig.email}
+      href={`mailto:${siteConfig.email}`}
+    >
+      {siteConfig.email}
+    </a>.
+  </p>
+</BaseLayout>
