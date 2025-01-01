@@ -26,4 +26,10 @@ export default defineConfig({
       wrap: true,
     },
   },
+  vite: {
+    define: {
+      'process.env': process.env,
+    },
+  },
 })
+

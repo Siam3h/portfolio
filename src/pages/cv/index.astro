@@ -3,5 +3,20 @@ import BaseLayout from '@/layouts/BaseLayout.astro'
 ---
 
 <BaseLayout title="Resume">
-  <h3>Download my resume</h3>
+  <article class="prose">
+    <h2 class="text-title">Resume</h2>
+    <p>You can download my resume by clicking the link below:</p>
+    <a
+      href="public/resume/Philbert Siama_CV.pdf"
+      target="_blank"
+      class="prose-link"
+      download
+    >
+      <button class="btn btn-primary">Download My Resume (PDF)</button>
+    </a>
+    <p>
+      Feel free to reach out if you have any questions or would like to learn
+      more about my work and experience.
+    </p>
+  </article>
 </BaseLayout>

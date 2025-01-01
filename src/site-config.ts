@@ -1,6 +1,6 @@
 export const siteConfig = {
-  author: 'Philbert Otieno',
-  title: 'Philbert',
+  author: 'Otieno Siama',
+  title: 'Siama',
   subtitle: 'Showcasing My Work, Skills, and Projects.',
   description: 'Welcome to my personal space on the web. This portfolio highlights my latest projects, skills, and achievements. Explore my work, read my blog posts, and get in touch to collaborate or learn more about my expertise',
   image: {
@@ -48,24 +48,16 @@ export const siteConfig = {
         href: '/blog',
       },
       {
-        text: 'Wanna talk?',
-        href: '/contact',
-      },
-      {
-        text: 'CV',
+        text: 'Resume',
         href: '/cv',
       },
       {
-        text: 'Urban Planning',
-        href: '/planning',
+        text: 'Projects',
+        href: '/projects',
       },
       {
-        text: 'Research',
-        href: '/research',
-      },
-      {
-        text: 'Data & Tech',
-        href: '/tech',
+        text: 'Wanna talk?',
+        href: '/contact',
       },
     ],
   },
@@ -88,24 +80,12 @@ export const siteConfig = {
         href: '/blog',
       },
       {
+        text: 'Projects',
+        href: '/projects',
+      },
+      {
         text: 'Wanna talk?',
         href: '/contact',
-      },
-      {
-        text: 'CV',
-        href: '/cv',
-      },
-      {
-        text: 'Urban Planning',
-        href: '/planning',
-      },
-      {
-        text: 'Research',
-        href: '/research',
-      },
-      {
-        text: 'Data & Tech',
-        href: '/tech',
       },
     ],
   },
